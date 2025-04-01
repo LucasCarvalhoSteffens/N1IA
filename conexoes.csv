@@ -1,0 +1,23 @@
+origem,destino,tempo
+São Paulo,Rio de Janeiro,60
+São Paulo,Belo Horizonte,90
+São Paulo,Curitiba,45
+São Paulo,Campinas,20
+Rio de Janeiro,São Paulo,60
+Rio de Janeiro,Belo Horizonte,40
+Rio de Janeiro,Vitória,65
+Belo Horizonte,São Paulo,90
+Belo Horizonte,Rio de Janeiro,40
+Belo Horizonte,Brasília,80
+Curitiba,São Paulo,45
+Curitiba,Florianópolis,30
+Curitiba,Porto Alegre,70
+Campinas,São Paulo,20
+Campinas,Ribeirão Preto,35
+Brasília,Belo Horizonte,80
+Brasília,Goiânia,25
+Vitória,Rio de Janeiro,65
+Florianópolis,Curitiba,30
+Porto Alegre,Curitiba,70
+Goiânia,Brasília,25
+Ribeirão Preto,Campinas,35
