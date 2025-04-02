@@ -115,7 +115,11 @@ class SistemaEntregaIA:
                 pai2 = random.choice(elite)
                 
                 # Cruzamento
-                ponto_corte = random.randint(1, min(len(pai1), len(pai2)) - 1)
+                if min(len(pai1), len(pai2)) > 1:
+                    ponto_corte = random.randint(1, min(len(pai1), len(pai2)) - 1)
+                else:
+                    ponto_corte = 1  # Ou outra abordagem para lidar com cromossomos pequenos
+
                 filho = pai1[:ponto_corte] + [x for x in pai2 if x not in pai1[:ponto_corte]]
                 
                 # Garantir que o filho tenha o tamanho correto
